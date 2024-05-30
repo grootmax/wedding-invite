@@ -1,0 +1,36 @@
+/* Optional additional styling */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #641a40;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #d1adcb;
+    padding: 10px 0;
+}
+
+footer {
+    background-color: #0c0c0c;
+}
+
+.vh-100 {
+    height: 100vh;
+}
+
+.my-5 {
+    margin-top: 3rem !important;
+    margin-bottom: 3rem !important;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+}
